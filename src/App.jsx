@@ -15,9 +15,10 @@ function App() {
           {" "}
         </Route>
         <Route path="/" element={<Products />}></Route>
-        <Route path="/" element={<About />}></Route>
-        <Route path="/" element={<Contact />}></Route>
-        <Route path="/" element={<Cart />}></Route>
+        <Route path="/products" element={<Products />}></Route>
+        <Route path="/about" element={<About />}></Route>
+        <Route path="/contact" element={<Contact />}></Route>
+        <Route path="/cart" element={<Cart />}></Route>
       </Routes>
     </BrowserRouter>
   );
