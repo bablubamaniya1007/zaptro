@@ -1,1 +1,6 @@
 @import "tailwindcss";
+/* clerk button adjust  */
+.cl-avatarBox{
+    width: 3rem;
+    height: 3rem;
+}
